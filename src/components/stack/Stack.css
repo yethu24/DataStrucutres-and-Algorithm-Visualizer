@@ -1,0 +1,23 @@
+.stack-container {
+    display: flex;
+    flex-direction: column-reverse;  /* Stack grows from bottom to top */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .stack-element {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: #2196f3;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: opacity 0.5s ease;
+  }
+  

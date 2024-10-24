@@ -1,0 +1,20 @@
+.array-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .array-element {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  

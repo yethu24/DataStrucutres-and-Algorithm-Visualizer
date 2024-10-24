@@ -1,0 +1,26 @@
+/* src/components/Queue.css */
+.queue-container {
+    display: flex;                  /* Align elements in a row */
+    justify-content: center;        /* Center the queue horizontally */
+    align-items: center;            /* Align elements vertically within the container */
+    margin-top: 20px;
+  }
+  
+  .queue-element {
+    width: 60px;                    /* Define the width of each queue element */
+    height: 60px;                   /* Define the height of each queue element */
+    margin: 0 10px;                 /* Space between queue elements */
+    background-color: #4CAF50;      /* Green background color for the queue elements */
+    color: white;                   /* White text color */
+    display: flex;                  /* Flexbox to center text within each element */
+    justify-content: center;        /* Center text horizontally */
+    align-items: center;            /* Center text vertically */
+    border-radius: 5px;             /* Slightly rounded corners */
+    font-size: 18px;                /* Font size for the numbers */
+    font-weight: bold;
+    transition: transform 0.3s ease; /* Smooth transition effect for animations */
+  }
+  
+  .queue-element:hover {
+    transform: scale(1.1);          /* Slight zoom-in effect when hovering */
+  }
